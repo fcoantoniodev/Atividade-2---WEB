@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 1</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src = "JS/jquery-3.5.1.slim.min.js"> </script>
+    <script src = "JS/popper.min.js"> </script>
+    <script src = "JS/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="content">
+    <h2>Inserir anúncio</h2>
+    <form class="form">
+
+        <input type="text" id="ftitulo" class = "form-control" style = "width:300px" placeholder="Título"><br><br>
+        <input type="text" id="fdesc" class = "form-control" style = "width:300px"  placeholder="Descrição" ><br><br>
+        <input type="text" id="fquartos" class = "form-control" style = "width:300px"  placeholder="Quartos" ><br><br>
+        <input type="text" id="fvagasG"  class = "form-control" style = "width:300px"  placeholder="Vagas de garagem"><br><br>
+        <input type="text" id="fareat"  class = "form-control" style = "width:300px"  placeholder="Área do terreno" ><br><br>
+        <input type="text" id="fareaC"  class = "form-control" style = "width:300px"  placeholder="Área construída" ><br><br>
+        <input type="text" id="flocal"  class = "form-control" style = "width:300px"  placeholder="Localidade" ><br><br>
+        <input type="text" id="fprice"  class = "form-control" style = "width:300px"  placeholder="Preço" ><br><br>
+        <input type="url"  id="fname"  class = "form-control" style = "width:300px"  placeholder="Imagem" ><br><br>
+        
+        <input type="reset" class="btn btn-danger" value="Limpar">
+        <input type="button" class="btn btn-success" onclick="creatElement()" value="Inserir">
+
+      </form> 
+  </div>
+
+    <div class="second-content">
+      
+    </div>
+      
+      <script src="main.js"></script>
+</body>
+
+</html>
